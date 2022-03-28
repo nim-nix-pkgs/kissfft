@@ -11,7 +11,6 @@
   inputs.src-kissfft-master.ref   = "refs/heads/master";
   inputs.src-kissfft-master.owner = "m13253";
   inputs.src-kissfft-master.repo  = "nim-kissfft";
-  inputs.src-kissfft-master.dir   = "";
   inputs.src-kissfft-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
